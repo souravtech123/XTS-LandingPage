@@ -6,13 +6,14 @@ const Hero = () => {
 
       {/* Background Video */}
       <video
-        className="absolute top-0 left-0 w-full h-full object-cover"
-        src="/src/assets/video - Made with Clipchamp_1765772098618.mp4"
-        autoPlay
-        loop
-        muted
-        playsInline
-      />
+  className="absolute top-0 left-0 w-full h-full object-cover"
+  src="hero.mp4"
+  autoPlay
+  loop
+  muted
+  playsInline
+/>
+
 
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/70"></div>
